@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dedede"
+    android:fitsSystemWindows="true"
+    >
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+     <ImageView
+         android:padding="10dp"
+     android:layout_weight="1"
+         android:id="@+id/img2"
+         android:layout_width="60dp"
+         android:src="@drawable/frame"
+         android:scaleType="centerInside"
+         android:layout_height="60dp" />
+     <ImageView
+         android:padding="10dp"
+         android:id="@+id/img3"
+         android:layout_weight="1"
+         android:src="@drawable/sofa"
+         android:layout_width="60dp"
+         android:layout_height="60dp" />
+     <ImageView
+         android:padding="10dp"
+         android:layout_weight="1"
+         android:src="@drawable/relax"
+         android:layout_width="60dp"
+         android:layout_height="60dp" />
+ </LinearLayout>
+
+    <GridLayout
+        android:visibility="gone"
+        android:background="#ffffff"
+        android:id="@+id/pCareInstruct"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:columnCount="4"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:numColumns="4"
+        android:rowCount="4"
+        >
+
+        <ImageView
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:padding="10dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:padding="10dp"
+            android:layout_height="45dp"
+            android:src="@drawable/sofa" />
+
+        <ImageView
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+
+            android:layout_height="45dp"
+            android:src="@drawable/relax" />
+
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+    </GridLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/img5"
+            android:layout_width="60dp"
+            android:src="@drawable/lamp"
+            android:scaleType="centerInside"
+            android:layout_height="60dp" />
+        <ImageView
+
+            android:padding="10dp"
+            android:id="@+id/img6"
+            android:layout_weight="1"
+            android:src="@drawable/sofa"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/img4"
+            android:src="@drawable/parquet"
+            android:padding="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <GridLayout
+        android:visibility="gone"
+android:background="#ffffff"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/pCareInstruction2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+android:columnCount="4"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:numColumns="4"
+        android:rowCount="4"
+        >
+
+        <ImageView
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:padding="10dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:padding="10dp"
+            android:layout_height="45dp"
+            android:src="@drawable/sofa" />
+
+        <ImageView
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+
+            android:layout_height="45dp"
+            android:src="@drawable/relax" />
+
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/lamp" />
+
+          <ImageView
+              android:padding="10dp"
+              android:layout_gravity="fill"
+              android:layout_columnWeight="1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/lamp" />
+    </GridLayout>
+
+
+
+</LinearLayout>
